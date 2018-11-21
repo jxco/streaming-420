@@ -23,7 +23,7 @@ client.user.setActivity(argresult, {type:'LISTENING'});
     message.channel.sendMessage(`**✅  : ${argresult}**`)
 } else 
 if (message.content.startsWith(PrEfix + 'st')) {
-  client.user.setGame(argresult, " ");
+  client.user.setGame(argresult, "https://www.twitch.tv/amira");
     message.channel.sendMessage(`**✅  : ${argresult}**`)
 }
 
